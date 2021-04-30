@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<header>
+    <title>My HTML5 Website</title>
+</header>
+
+<body>
+    <header id="page_header">
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="post">
+        <article class="post">
+            <header>
+                <h2>Post Title</h2>
+            </header>
+            <aside>
+                <p>&quot;Quote goes here</p>
+            </aside>
+            <p>Post Content</p>
+            <footer>
+                <p>No Comments</p>
+            </footer>
+        </article>
+    </section>
+
+    <section id="sidebar">
+        <nav>
+            <h3>Archives</h3>
+            <ul>
+                <li><a href="/">October</a></li>
+                <li><a href="/">September</a></li>
+                <li><a href="/">August</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <footer id="page_footer">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
